@@ -1,37 +1,26 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+// IMPORT STATEMENTS
+@import './resets', './variables';
+
+// FUNCTIONS
+@function fontWeight($weight-name) {
+    @return map-get($font-weights, $weight-name);
 }
 
-// Colors
-$deep-orange: #F16718;
-$light-orange: #FF9B62;
-$blueish-black: #162542;
-$greyish-blue: #7B8BAD;
-$light-blue: #E8EFF2;
-$accent-white: #FFFFFF;
+@function lineHeight($line-height) {
+    @return map-get($line-heights, $line-height);
+}
 
-// Font Sizes
-$title-h1: 3.5rem;
-$title-h2: 2rem;
-$title-h3: 1.5rem;
-$paragraphs: 1rem;
+@function fontSize($size) {
+    @return map-get($font-sizes, $size);
+}
 
-// Font Weight
-$weight-black: 900;
-$weight-bold: 700;
-$weight-medium: 500;
-
-$lh-title-h1: 3.5rem;
-$lh-title-h2: 2.25rem;
-$lh-title-h3: 1.75rem;
-$lh-paragraph: 1.625rem;
-
+// CONTENT STYLES
 body {
+    min-height: 100vh;
     font-family: 'Barlow', sans-serif;
-    font-size: $paragraphs;
-    font-weight: $weight-medium;
+    font-size: fontSize(size-p);
+    font-weight: fontWeight(weight-medium);
+    line-height: lineHeight(lh-paragraph);
 }
 
 
