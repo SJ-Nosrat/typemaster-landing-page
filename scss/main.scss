@@ -1,5 +1,6 @@
 // IMPORT STATEMENTS
 @import './resets', './variables';
+@import './button-general-mobile';
 
 // FUNCTIONS
 @function fontWeight($weight-name) {
@@ -22,5 +23,37 @@ body {
     font-weight: fontWeight(weight-medium);
     line-height: lineHeight(lh-paragraph);
 }
+
+img {
+    max-width: 100%;
+}
+
+.grey-box-gen {
+    display: none;
+}
+
+.content-wrapper {
+    display: grid;
+    place-content: center;
+}
+
+.header-main {
+    display: grid;
+    margin: 1.5rem;
+
+    .btn-main {
+        justify-self: end;
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .logo-main {
+        justify-self: start;
+        align-self: center;
+        grid-row: 1;
+        grid-column: 1;
+    }
+}
+
 
 

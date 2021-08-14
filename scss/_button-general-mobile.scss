@@ -1,0 +1,14 @@
+.btn-gen {
+    width: 150px;
+    height: 48px;
+    text-align: center;
+    font-weight: map-get($font-weights, weight-bold);
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 7px;
+    font-size: .93rem;
+    line-height: map-get($line-heights, lh-paragraph);
+    color: $blueish-black;
+    background-color: $light-blue;
+    padding: 5px;
+}

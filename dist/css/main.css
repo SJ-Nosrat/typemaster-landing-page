@@ -9,11 +9,67 @@ html {
   height: 100%;
 }
 
+.btn-gen {
+  width: 150px;
+  height: 48px;
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-style: none;
+  border-radius: 7px;
+  font-size: .93rem;
+  line-height: 1.625rem;
+  color: #162542;
+  background-color: #E8EFF2;
+  padding: 5px;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Barlow', sans-serif;
   font-size: 1rem;
   font-weight: 500;
   line-height: 1.625rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.grey-box-gen {
+  display: none;
+}
+
+.content-wrapper {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+
+.header-main {
+  display: -ms-grid;
+  display: grid;
+  margin: 1.5rem;
+}
+
+.header-main .btn-main {
+  -ms-grid-column-align: end;
+      justify-self: end;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.header-main .logo-main {
+  -ms-grid-column-align: start;
+      justify-self: start;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 1;
+  grid-column: 1;
 }
 /*# sourceMappingURL=main.css.map */
