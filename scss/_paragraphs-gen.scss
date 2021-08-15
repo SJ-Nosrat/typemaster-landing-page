@@ -1,0 +1,6 @@
+.p-gen {
+    font-size: map-get($font-sizes, size-p);
+    font-weight: map-get($font-weights, weight-medium);
+    line-height: map-get($line-heights, lh-paragraph);
+    color: $greyish-blue;
+}
