@@ -1,6 +1,6 @@
 // IMPORT STATEMENTS
 @import './resets', './variables';
-@import './button-general-mobile', './paragraphs-gen', './span-gen';
+@import './button-general-mobile', './paragraphs-gen', './span-gen', './title-h3-general-mobile';
 
 // FUNCTIONS
 @function fontWeight($weight-name) {
@@ -156,5 +156,14 @@ img {
 .p-sec-mid {
     text-align: center;
     margin: 0 1.5rem 6.9375rem;
+}
+
+.p-article {
+    text-align: center;
+    margin: 1.5rem 1.5rem 4rem;
+}
+
+.t-h3 {
+    display: block;
 }
 

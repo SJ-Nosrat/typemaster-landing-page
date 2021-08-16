@@ -38,6 +38,15 @@ html {
   color: #7B8BAD;
 }
 
+.title-h3 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 1.75rem;
+  margin: 3rem 1.5rem 1.5rem;
+  text-transform: uppercase;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Barlow', sans-serif;
@@ -205,5 +214,14 @@ img {
 .p-sec-mid {
   text-align: center;
   margin: 0 1.5rem 6.9375rem;
+}
+
+.p-article {
+  text-align: center;
+  margin: 1.5rem 1.5rem 4rem;
+}
+
+.t-h3 {
+  display: block;
 }
 /*# sourceMappingURL=main.css.map */
