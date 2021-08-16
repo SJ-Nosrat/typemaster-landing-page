@@ -249,4 +249,14 @@ img {
   display: grid;
   place-content: center;
 }
+
+.footer-main {
+  text-align: center;
+  margin: 0 3.125rem 3.125rem;
+}
+
+.footer-main p {
+  color: #7B8BAD;
+  font-weight: 500;
+}
 /*# sourceMappingURL=main.css.map */

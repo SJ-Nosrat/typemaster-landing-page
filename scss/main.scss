@@ -172,3 +172,13 @@ img {
     place-content: center;
 }
 
+// FOOTER STYLES
+.footer-main {
+    text-align: center;
+    margin: 0 3.125rem 3.125rem;
+
+    p {
+        color: $greyish-blue;
+        font-weight: fontWeight(weight-medium);
+    }
+}
