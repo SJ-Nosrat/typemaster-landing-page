@@ -141,6 +141,7 @@ img {
 .p-sectop {
   text-align: left;
   margin-bottom: 2rem;
+  max-width: 507px;
 }
 
 .sectop__btnWrapper {
@@ -233,11 +234,15 @@ img {
 .p-sec-mid {
   text-align: center;
   margin: 0 1.5rem 6.9375rem;
+  max-width: 450px;
+  -ms-grid-column-align: center;
+      justify-self: center;
 }
 
 .p-article {
   text-align: center;
   margin: 1.5rem 1.5rem 4rem;
+  max-width: 375px;
 }
 
 .t-h3 {
