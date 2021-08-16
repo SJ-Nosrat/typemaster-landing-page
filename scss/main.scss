@@ -1,6 +1,6 @@
 // IMPORT STATEMENTS
 @import './resets', './variables';
-@import './button-general-mobile', './paragraphs-gen', './span-gen', './title-h3-general-mobile';
+@import './button-general-mobile', './paragraphs-gen', './span-gen', './title-h3-general-mobile', './article-icon-general';
 
 // FUNCTIONS
 @function fontWeight($weight-name) {
@@ -165,5 +165,10 @@ img {
 
 .t-h3 {
     display: block;
+}
+
+.article-gen {
+    display: grid;
+    place-content: center;
 }
 

@@ -47,6 +47,25 @@ html {
   text-transform: uppercase;
 }
 
+.icon-gen {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-self: center;
+  background-color: #F16718;
+  width: 4.0625rem;
+  height: 4.0625rem;
+  border-radius: 10px;
+}
+
 body {
   min-height: 100vh;
   font-family: 'Barlow', sans-serif;
@@ -223,5 +242,11 @@ img {
 
 .t-h3 {
   display: block;
+}
+
+.article-gen {
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
 }
 /*# sourceMappingURL=main.css.map */
