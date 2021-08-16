@@ -106,3 +106,41 @@ img {
 .img-keyboard {
     border-radius: 19px 0 0 19px;
 }
+
+// SECTION MIDDLE
+.section-middle {
+    display: grid;
+}
+
+
+.secmid__imgWrapper {
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    gap: 1.5rem;
+    margin: 1.5rem 0 4.6875rem 0;
+}
+
+.img-glass-keyboard,
+.img-phone-keyboard {
+    grid-row: 1;
+    // height: 55vw;
+    padding-top: 51.5vw;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 19px;
+    transform: translateX(-1.5rem);
+}
+
+.img-glass-keyboard {
+    background-image: url(../../starter-code/assets/mobile/image-glass-and-keyboard.jpg);
+    grid-column: 3 / span 3;
+}
+
+.img-phone-keyboard {
+    background-image: url(../../starter-code/assets/mobile/image-phone-and-keyboard.jpg);
+    grid-column: 1 / span 2;
+    background-color: $deep-orange;
+    background-blend-mode: multiply;
+}
+
