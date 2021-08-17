@@ -353,7 +353,76 @@ img {
 
     .sectop__imgWrapper {
         display: flex;
-        // transform: translateX(0rem);
+        transform: translateX(9rem);
         gap: 2rem;
+    }
+
+    // SECTION MIDDLE 
+    .section-middle {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .secmid__imgWrapper {
+        gap: 1rem;
+        grid-template-columns: .75fr 1fr 1.75fr;
+    }
+
+    .img-glass-keyboard,
+    .img-phone-keyboard {
+        grid-row: 1;
+        height: 480px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 19px;
+        transform: translateX(0);
+    }
+
+    .img-glass-keyboard {
+        background-image: url(../../starter-code/assets/desktop/image-glass-and-keyboard.jpg);
+        grid-column: 3;
+        transform: translateX(-12rem);
+    }
+
+    .img-phone-keyboard {
+        background-image: url(../../starter-code/assets/desktop/image-phone-and-keyboard.jpg);
+        grid-column: 2;
+        background-color: $deep-orange;
+        background-blend-mode: multiply;
+        object-fit: contain;
+        transform: translateX(-14.5rem);
+    }
+
+    .grey-box-mid {
+        align-self: end;
+        transform: translateX(-15rem);
+        width: 255px;
+        height: 240px;
+        clip-path: inset(0 0 0 35%);
+    }
+
+    .secmid-article {
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0;
+        margin-bottom: 0;
+        transform: translateX(-7.5rem);
+    }
+
+    .title-h2 {
+        align-self: flex-start;
+        max-width: 19rem;
+    }
+
+    .p-sec-mid {
+        padding: 0;
+        margin-top: 1.7rem;
+        max-width: 19rem;
+        align-self: flex-start;
+    }
+
+    // SECTION BOTTOM
+    .section-bottom {
+        // margin-left: 6rem;
+        gap: 3.5rem;
     }
 }
