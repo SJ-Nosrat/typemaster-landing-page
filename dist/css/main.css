@@ -79,7 +79,8 @@ img {
 }
 
 .grey-box-gen,
-.img-keyboard-desktop {
+.img-keyboard-desktop,
+.img-keyboard-tablet {
   display: none;
 }
 
@@ -279,7 +280,7 @@ img {
   .img-keyboard {
     display: none;
   }
-  .img-keyboard-desktop {
+  .img-keyboard-tablet {
     display: block;
     border-radius: 19px;
     width: 100%;
@@ -387,6 +388,41 @@ img {
   .icon-gen {
     -ms-grid-column-align: start;
         justify-self: start;
+  }
+}
+
+@media (min-width: 1400px) {
+  .title-main {
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+  }
+  .p-sectop {
+    font-size: 1.125rem;
+  }
+  .img-keyboard-tablet {
+    display: none;
+  }
+  .img-keyboard-desktop,
+  .grey-box-gen {
+    display: block;
+  }
+  .img-keyboard-desktop {
+    width: 540px;
+    height: 480px;
+    border-radius: 19px;
+  }
+  .grey-box-top {
+    width: 255px;
+    height: 240px;
+  }
+  .sectop__wrapper {
+    max-width: 29rem;
+  }
+  .sectop__imgWrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 2rem;
   }
 }
 /*# sourceMappingURL=main.css.map */
