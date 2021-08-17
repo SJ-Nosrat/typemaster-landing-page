@@ -28,7 +28,8 @@ img {
     max-width: 100%;
 }
 
-.grey-box-gen {
+.grey-box-gen,
+.img-keyboard-desktop {
     display: none;
 }
 
@@ -75,6 +76,7 @@ img {
     font-weight: fontWeight(weight-heavyBold);
     text-align: left;
     margin-bottom: 2rem;
+    text-transform: uppercase;
 }
 
 .p-sectop {
@@ -185,4 +187,39 @@ img {
         color: $greyish-blue;
         font-weight: fontWeight(weight-medium);
     }
+}
+
+@media (min-width: 768px) {
+    .header-main {
+        margin: 2.5rem 2.5rem 3.875rem;
+    }
+
+    .img-keyboard {
+        display: none;
+    }
+
+    .img-keyboard-desktop {
+        display: block;
+        border-radius: 19px;
+        width: 100%;
+    }
+
+    .section-top {
+        display: flex;
+        justify-content: center;
+        overflow-x: hidden;
+    }
+
+    .sectop__wrapper {
+        margin: 0;
+        align-self: center;
+        margin-left: 2.5rem;
+
+    }
+
+    .sectop__imgWrapper {
+        margin: 0;
+        transform: translateX(7rem);
+    }
+    
 }
