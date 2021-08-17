@@ -126,8 +126,8 @@ img {
 .img-glass-keyboard,
 .img-phone-keyboard {
     grid-row: 1;
-    // height: 55vw;
-    padding-top: 51.5vw;
+    height: 51.5vw;
+    // padding-top: 51.5vw;
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 19px;
@@ -190,6 +190,8 @@ img {
 }
 
 @media (min-width: 768px) {
+
+    // SECTION TOP
     .header-main {
         margin: 2.5rem 2.5rem 3.875rem;
     }
@@ -221,5 +223,36 @@ img {
         margin: 0;
         transform: translateX(7rem);
     }
-    
+
+    // SECTION MIDDLE
+    .img-glass-keyboard,
+    .img-phone-keyboard {
+        grid-row: 1;
+        height: 42vw;
+        // padding-top: 51.5vw;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 19px;
+        transform: translateX(0);
+    }
+
+    .secmid__imgWrapper {
+        gap: 1rem;
+        grid-template-columns: 1rem .5fr 1fr 2.5rem;
+    }
+
+    .img-glass-keyboard {
+        background-image: url(../../starter-code/assets/tablet/image-glass-and-keyboard.jpg);
+        grid-column: 3;
+        transform: translateX(1.5rem);
+    }
+
+    .img-phone-keyboard {
+        background-image: url(../../starter-code/assets/tablet/image-phone-and-keyboard.jpg);
+        grid-column: 2;
+        background-color: $deep-orange;
+        background-blend-mode: multiply;
+        object-fit: contain;
+    }
+
 }
