@@ -49,6 +49,12 @@ img {
         grid-column: 1;
     }
 
+    .btn-main:hover {
+        cursor: pointer;
+        background-color: $blueish-black;
+        color: $accent-white;
+    }
+
     .logo-main {
         justify-self: start;
         align-self: center;
@@ -100,6 +106,12 @@ img {
     background-color: $deep-orange;
     color: $accent-white;
 
+}
+
+.btn-sec-top:hover {
+    cursor: pointer;
+    background-color: $light-orange;
+    color: $accent-white;
 }
 
 .sectop__imgWrapper {
@@ -202,6 +214,14 @@ img {
     // SECTION TOP
     .header-main {
         margin: 2.5rem 2.5rem 3.875rem;
+    }
+
+    .btn-sec-top,
+    .btn-main {
+        padding: 1rem 1.5rem;
+        width: 175px;
+        height: 58px;
+        font-size: .9rem;
     }
 
     .img-keyboard {

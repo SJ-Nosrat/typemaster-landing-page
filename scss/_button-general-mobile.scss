@@ -11,4 +11,6 @@
     color: $blueish-black;
     background-color: $light-blue;
     padding: 5px;
+    transition-property: background-color;
+    transition-duration: .5s;
 }

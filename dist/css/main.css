@@ -22,6 +22,10 @@ html {
   color: #162542;
   background-color: #E8EFF2;
   padding: 5px;
+  -webkit-transition-property: background-color;
+  transition-property: background-color;
+  -webkit-transition-duration: .5s;
+          transition-duration: .5s;
 }
 
 .p-gen {
@@ -105,6 +109,12 @@ img {
   grid-column: 1;
 }
 
+.header-main .btn-main:hover {
+  cursor: pointer;
+  background-color: #162542;
+  color: #FFFFFF;
+}
+
 .header-main .logo-main {
   -ms-grid-column-align: start;
       justify-self: start;
@@ -165,6 +175,12 @@ img {
 
 .btn-sec-top {
   background-color: #F16718;
+  color: #FFFFFF;
+}
+
+.btn-sec-top:hover {
+  cursor: pointer;
+  background-color: #FF9B62;
   color: #FFFFFF;
 }
 
@@ -276,6 +292,13 @@ img {
 @media (min-width: 768px) {
   .header-main {
     margin: 2.5rem 2.5rem 3.875rem;
+  }
+  .btn-sec-top,
+  .btn-main {
+    padding: 1rem 1.5rem;
+    width: 175px;
+    height: 58px;
+    font-size: .9rem;
   }
   .img-keyboard {
     display: none;
