@@ -184,6 +184,11 @@ img {
   display: grid;
 }
 
+.secmid-article {
+  display: -ms-grid;
+  display: grid;
+}
+
 .secmid__imgWrapper {
   display: -ms-grid;
   display: grid;
