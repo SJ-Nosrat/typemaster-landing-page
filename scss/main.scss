@@ -49,7 +49,8 @@ img {
         grid-column: 1;
     }
 
-    .btn-main:hover {
+    .btn-main:hover,
+    .btn-main:active {
         cursor: pointer;
         background-color: $blueish-black;
         color: $accent-white;
@@ -108,7 +109,8 @@ img {
 
 }
 
-.btn-sec-top:hover {
+.btn-sec-top:hover,
+.btn-sec-top:active {
     cursor: pointer;
     background-color: $light-orange;
     color: $accent-white;
@@ -214,14 +216,6 @@ img {
     // SECTION TOP
     .header-main {
         margin: 2.5rem 2.5rem 3.875rem;
-    }
-
-    .btn-sec-top,
-    .btn-main {
-        padding: 1rem 1.5rem;
-        width: 175px;
-        height: 58px;
-        font-size: .9rem;
     }
 
     .img-keyboard {
@@ -339,6 +333,14 @@ img {
 
 // DESKTOP STYLING
 @media (min-width: 1400px) {
+    .btn-sec-top,
+    .btn-main {
+        padding: 1rem 1.5rem;
+        width: 175px;
+        height: 58px;
+        font-size: .9rem;
+    }
+
     .title-main {
         font-size: fontSize(size-h1);
         line-height: lineHeight(lh-title-h1);
@@ -425,7 +427,7 @@ img {
         justify-content: center;
         margin-left: 0;
         margin-bottom: 0;
-        transform: translateX(-7.5rem);
+        transform: translateX(-6.5rem);
     }
 
     .title-h2 {
